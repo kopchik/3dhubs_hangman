@@ -1,7 +1,7 @@
 # 3dhubs_hangman
-Interview task from 3d hubs.
+An interview task from 3d hubs.
 
-TL;DR:
+**TL;DR:**
 
 ~~~bash
 # play game
@@ -22,3 +22,5 @@ The trivial version: "hangman_simple.py" .
 Another one is "hangman_advanced.py" which is covered by tests.
 The state is kept in a separate class so it is easy to refactor the code to use with Django.
 In that case State would be a DB model and 'hangman' is a view.
+
+No fancy ascii graphics this time, sorry :(
