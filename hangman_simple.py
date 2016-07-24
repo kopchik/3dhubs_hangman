@@ -18,7 +18,7 @@ def hang_format(word, letters):
 
 
 def hangman(word, max_mistakes=MAX_MISTAKES):
-    # very ybasic validation
+    # very basic validation
     assert isinstance(word, str) and len(word) >= 1, "invalid word"
     word = word.lower()
 
