@@ -45,7 +45,7 @@ def hangman(state, guess):
         return (ret.invalid, "Invalid input")
     guess = guess.lower()
 
-    if guess not in word:
+    if guess not in state.word:
         state.mistakes += 1
         if state.mistakes >= state.max_mistakes:
             return (ret.gameover, "Game over.")
